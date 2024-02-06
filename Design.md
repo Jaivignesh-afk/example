@@ -13,9 +13,10 @@ end
 flowchart LR
 subgraph Middleware
 A[Feeder] --> B((Google Map API))
-B --> D{Algorithm}
+B <--> D{Algorithm}
+
 B -- Route Details --> C[(Database - User)]
-D -- Route Details --> A 
+
 end
 ```
 
@@ -24,5 +25,6 @@ end
  subgraph 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzA1ODQyMCwxNzI2NzA5NzY3XX0=
+eyJoaXN0b3J5IjpbMTI0NzY0NzY1OCwxNjYzMDU4NDIwLDE3Mj
+Y3MDk3NjddfQ==
 -->
