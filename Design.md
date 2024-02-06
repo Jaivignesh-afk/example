@@ -12,9 +12,7 @@ flowchart LR
 subgraph Middleware
 A[Feeder] <--> B((Google Map API))
 B <--> D{Algorithm}
-
 B -- Route Details --> C[(Database - User)]
-
 end
 ```
 ```mermaid
@@ -22,6 +20,6 @@ end
  subgraph 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDE5Njc4NCwxNjYzMDU4NDIwLDE3Mj
-Y3MDk3NjddfQ==
+eyJoaXN0b3J5IjpbLTE1Mzk2ODAyNzIsMTY2MzA1ODQyMCwxNz
+I2NzA5NzY3XX0=
 -->
