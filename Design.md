@@ -19,9 +19,10 @@ end
  flowchart LR
  subgraph LiveTracking
  A[Seeker] <--Socket--> B((GPS))
+ B[Feeder] <--Socket--> B
  end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzcwMjAwNyw1NDE4NTc4MTAsLTE1Mz
+eyJoaXN0b3J5IjpbLTU1MjIyMTc3Nyw1NDE4NTc4MTAsLTE1Mz
 k2ODAyNzIsMTY2MzA1ODQyMCwxNzI2NzA5NzY3XX0=
 -->
