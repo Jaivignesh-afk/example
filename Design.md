@@ -1,9 +1,9 @@
 # Database Design
 ```mermaid
-graph
+flowchart TD
 subgraph ETA
 A[Feeder] <--ETA--> C{Middleware}
-C <--> B[(Database)]
+C <--Save--> B[(Database)]
 end
 ```
 
@@ -17,12 +17,11 @@ B -- Route Details --> C[(Database - User)]
 
 end
 ```
-
 ```mermaid
  flowchart LR
  subgraph 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjIzNjE4MywxNjYzMDU4NDIwLDE3Mj
+eyJoaXN0b3J5IjpbMjAwMDE5Njc4NCwxNjYzMDU4NDIwLDE3Mj
 Y3MDk3NjddfQ==
 -->
