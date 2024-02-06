@@ -18,10 +18,10 @@ end
 ```mermaid
  flowchart LR
  subgraph LiveTracking
- A[Seeker] --> B[]
+ A[Seeker] <--Socket--> B((GPS))
  end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxODU3ODEwLC0xNTM5NjgwMjcyLDE2Nj
-MwNTg0MjAsMTcyNjcwOTc2N119
+eyJoaXN0b3J5IjpbLTgwMzcwMjAwNyw1NDE4NTc4MTAsLTE1Mz
+k2ODAyNzIsMTY2MzA1ODQyMCwxNzI2NzA5NzY3XX0=
 -->
