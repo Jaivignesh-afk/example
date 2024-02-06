@@ -10,11 +10,12 @@ end
 ```
 
 ```mermaid
-flowchart TD
+flowchart LR
 subgraph Middleware
 A[Feeder] --> B((Google Map API))
+B --> D{Algorithm}
 B -- Route Details --> C[(Database - User)]
-B -- Route Details --> A 
+D -- Route Details --> A 
 end
 ```
 
@@ -23,5 +24,5 @@ end
  subgraph 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA1MDI2OSwxNzI2NzA5NzY3XX0=
+eyJoaXN0b3J5IjpbMTY2MzA1ODQyMCwxNzI2NzA5NzY3XX0=
 -->
