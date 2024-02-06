@@ -1,18 +1,17 @@
 # Database Design
 ```mermaid
-graph TD
+graph
 subgraph ETA
-A[Feeder]  --> C{Middleware}
-C --> B
-B[(Database)] --> C
-C -- ETA --> A
+A[Feeder] <--ETA--> C{Middleware}
+C --> B[(
+
 end
 ```
 
 ```mermaid
 flowchart LR
 subgraph Middleware
-A[Feeder] --> B((Google Map API))
+A[Feeder] <--> B((Google Map API))
 B <--> D{Algorithm}
 
 B -- Route Details --> C[(Database - User)]
@@ -25,6 +24,6 @@ end
  subgraph 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzY0NzY1OCwxNjYzMDU4NDIwLDE3Mj
+eyJoaXN0b3J5IjpbMTgxNzUxODIyMCwxNjYzMDU4NDIwLDE3Mj
 Y3MDk3NjddfQ==
 -->
