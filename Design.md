@@ -3,8 +3,7 @@
 graph
 subgraph ETA
 A[Feeder] <--ETA--> C{Middleware}
-C --> B[(
-
+C <--> B[(Database)]
 end
 ```
 
@@ -24,6 +23,6 @@ end
  subgraph 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzUxODIyMCwxNjYzMDU4NDIwLDE3Mj
+eyJoaXN0b3J5IjpbMTQwMjIzNjE4MywxNjYzMDU4NDIwLDE3Mj
 Y3MDk3NjddfQ==
 -->
