@@ -18,10 +18,10 @@ end
 ```mermaid
  flowchart LR
  subgraph LiveTracking
- A[Seeker] --> B[
+ A[Seeker] --> B[]
  end
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1ODQyNTI1LC0xNTM5NjgwMjcyLDE2Nj
+eyJoaXN0b3J5IjpbNTQxODU3ODEwLC0xNTM5NjgwMjcyLDE2Nj
 MwNTg0MjAsMTcyNjcwOTc2N119
 -->
